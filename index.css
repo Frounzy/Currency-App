@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+text-align: center;
+background-color: rgb(70, 70, 73);
+margin-top: 200px;
+
+}
+
+#currency-div{
+display: flex;
+
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+h1{
+    color: #ffb256;
+    font-weight: 400;
+}
+
+input{
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+
+select{
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+button{
+    background-color: #ffb256;
+    border: none;
+    border-radius: 12px;
+    height: 40px;
+    width: 120px;
+    margin-top: 30px;
+}
+
+button:hover{
+    background-color: rgb(238, 243, 191);
+    
+}
